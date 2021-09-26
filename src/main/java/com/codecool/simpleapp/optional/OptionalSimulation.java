@@ -15,6 +15,6 @@ public class OptionalSimulation {
             System.out.println(productOptional.get().getCategory());
         }
 
-        Product product = productOptional.orElseThrow()
+        Product product = productOptional.orElseThrow();
     }
 }
